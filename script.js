@@ -8,5 +8,5 @@ function solvePopulationGrowth(){
     let location = prompt('Enter the location of the monster: ');
     let nameOfMonster = prompt('Enter the name of the monster: ');
 
-    document.getElementById('result').innerHTML = 'After 3 hours, the population of ' + location.concat(' ', nameOfMonster).toUpperCase() + ' has increased to ' + finalPopulation;
+    document.getElementById('result').innerHTML = 'After ' + timeInHours + ' hours, the population of ' + location.concat(' ', nameOfMonster).toUpperCase() + ' has increased to ' + finalPopulation;
 }
